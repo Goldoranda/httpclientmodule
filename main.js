@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
-        this.apiUrl = 'http://jsonplaceholder.typicode.com/users';
+        this.apiUrl = 'https://jsonplaceholder.typicode.com/users';
     }
     DataService.prototype.getUsers = function () {
         return this.http.get(this.apiUrl);
